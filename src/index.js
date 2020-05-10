@@ -2,6 +2,8 @@ import firebase from 'firebase/app';
 import 'firebase/storage';
 import 'materialize-css/dist/css/materialize.min.css'
 import 'materialize-css/dist/js/materialize.min.js'
+import './badge/badge';
+import './badge/badge-gh.css';
 
 function toast() {
   M.toast({html: 'Thank you for tryng my app! Please don\'t hesitate to let me know about any bugs or features you\'d like to see!'})
