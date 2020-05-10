@@ -3,12 +3,50 @@
 </head>
 
 <body>
-  <h1>My Cabinet of Curiosities</h1>
-  <h2>Download a relase</h2>
-  <ul>
-    <li><a id="production-link">Production</li>
-    <li><a id="preproduction-link">Pre-production</a></li>
-  </ul>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <h1 class="center-align">My Cabinet of Curiosities</h1>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="section center-align">
+      <div class="row">
+        <div class="col s12">
+          <h2>Mega fitness app</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h3>Download a relase</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <button 
+            class="waves-effect waves-light btn-large tooltipped" 
+            id="production-link" 
+            data-position="bottom" 
+            data-tooltip="Stable but not the newest stuff"
+          >
+            Production
+          </button>
+        </div>
+        <div class="col s6">
+          <button 
+            class="waves-effect waves-light btn-large tooltipped" 
+            id="preproduction-link" 
+            data-position="bottom" 
+            data-tooltip="Possibly unstable but all the new stuff"
+          >
+            Pre-production
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
-<script src="dist/main.js"></script>
+<script src="dist/bundle.js"></script>
