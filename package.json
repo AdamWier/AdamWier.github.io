@@ -4,5 +4,9 @@
   "dependencies": {
     "firebase": "^7.14.3",
     "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
