@@ -2,8 +2,7 @@
   "name": "deploy-site",
   "private": true,
   "dependencies": {
-    "firebase": "^7.14.3",
-    "jquery": "^3.4.1"
+    "firebase": "^7.14.3"
   },
   "devDependencies": {
     "webpack": "^4.43.0",
