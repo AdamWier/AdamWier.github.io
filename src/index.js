@@ -8,7 +8,7 @@ import './badge/badge-gh.css';
 const initToasts = () => {
   var elems = document.querySelectorAll('.tooltipped');
   M.Tooltip.init(elems);
-  document.getElementById('prod-link').addEventListener('click', toast);
+  // document.getElementById('prod-link').addEventListener('click', toast);
   document.getElementById('master-link').addEventListener('click', toast);
 }
 
@@ -35,6 +35,6 @@ firebase.initializeApp(firebaseConfig);
 document.addEventListener('DOMContentLoaded', function() {
   initToasts();
   initLink('master');
-  initLink('prod');
+  // initLink('prod');
   initGitBadge();
 });
