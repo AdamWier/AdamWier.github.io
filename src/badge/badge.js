@@ -1,4 +1,4 @@
-(function(){
+export default function initGitBadge(){
   var API_URL = 'https://api.github.com/';
 
   /**
@@ -476,4 +476,4 @@
       }
     }
   })();
-})();
+};
