@@ -20,7 +20,7 @@ const initLink = (buildName) => {
       document.getElementById(`${buildName}-link`)
         .setAttribute('href', link)
       ref.getMetadata().then(metadata => {
-        const date = new Date(metadata.updated).toLocaleString();
+        const date = new Date(metadata.timeCreated).toLocaleString();
         document.getElementById(`${buildName}-updated-at`).innerText = date;
         document.getElementById(`${buildName}-preloader`).style.display = 'none';
         document.getElementById(`${buildName}-button`).style.display = 'block';
